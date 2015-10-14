@@ -12,14 +12,20 @@
         <script>
             $( document ).ready(function() {
                 $('#top').eraser();
+                $(".btn").click(function(){
+                    $('#top').eraser('reset');
+                });
             });
         </script>
     </head>
     <body>
-        <h1>Yo-objeto</h1>        
+        <div id="buttons">
+            <div class="btn">Reiniciar</div>
+        </div>
         <div id="images">
             <img id="bottom" class="image" src="images/like.jpg" />
             <img id="top" class="image" src="images/robot.jpg" />
         </div>
+        
     </body>
 </html>
