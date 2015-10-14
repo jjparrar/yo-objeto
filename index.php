@@ -19,13 +19,13 @@
         </script>
     </head>
     <body>
-        <div id="buttons">
-            <div class="btn">Reiniciar</div>
-        </div>
-        <div id="images">
-            <img id="bottom" class="image" src="images/like.jpg" />
-            <img id="top" class="image" src="images/robot.jpg" />
-        </div>
         
+        <div id="images">
+            <img id="bottom" class="image" src="images/cielo.jpg" />
+            <img id="top" class="image" src="images/edificio.jpg" />
+        </div>
+        <div id="buttons">
+            <div class="btn"></div>
+        </div>
     </body>
 </html>
