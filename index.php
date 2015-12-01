@@ -17,31 +17,16 @@
                 $(".btn").click(function(){
                     $('#top').eraser('reset');
                 });
-                
-                
-                
-                $('#fullpage').fullpage();
-
             });
         </script>
     </head>
     <body>
-        
-<!--        <div id="images">
+        <div id="images">
             <img id="bottom" class="image" src="images/cielo.jpg" />
             <img id="top" class="image" src="images/edificio.jpg" />
         </div>
         <div id="buttons">
             <div class="btn"></div>
-        </div>-->
-        
-        <div id="fullpage">
-            <div class="section">
-                <div class="slide"> Slide 1 </div>
-                <div class="slide"> Slide 2 </div>
-                <div class="slide"> Slide 3 </div>
-                <div class="slide"> Slide 4 </div>
-            </div>
         </div>
     </body>
 </html>
