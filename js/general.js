@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $('.foto').click(function(e){
+    $('.video').click(function(e){
         e.preventDefault();
         $('<div>'+htmlVIdeo($(this).attr('data-video'))+'</div>').dialog({
             dialogClass: 'noTitleStuff',
